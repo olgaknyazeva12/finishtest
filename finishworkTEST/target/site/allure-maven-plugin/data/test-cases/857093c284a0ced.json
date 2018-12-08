@@ -1,0 +1,60 @@
+{
+  "uid" : "857093c284a0ced",
+  "name" : "testForRemoveFromSpamAllMessages",
+  "fullName" : "pack.TestNGForMailBoxMessages.testForRemoveFromSpamAllMessages",
+  "historyId" : "8c96d366571f058d6b79fbd88d53b680",
+  "time" : {
+    "start" : 1544279723421,
+    "stop" : 1544279741394,
+    "duration" : 17973
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1544279717522,
+      "stop" : 1544279723404,
+      "duration" : 5882
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "testClass",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "testMethod",
+    "value" : "testForRemoveFromSpamAllMessages"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "host",
+    "value" : "Olga"
+  }, {
+    "name" : "thread",
+    "value" : "16656@Olga.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}

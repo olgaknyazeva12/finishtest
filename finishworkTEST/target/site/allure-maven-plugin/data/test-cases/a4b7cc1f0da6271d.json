@@ -1,0 +1,88 @@
+{
+  "uid" : "a4b7cc1f0da6271d",
+  "name" : "testForAddToSpamAllMessages",
+  "fullName" : "pack.TestNGForMailBoxMessages.testForAddToSpamAllMessages",
+  "historyId" : "b6b626a91c334fb55c62ef5edf55df25",
+  "time" : {
+    "start" : 1544279977069,
+    "stop" : 1544279986915,
+    "duration" : 9846
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1544279969285,
+      "stop" : 1544279976982,
+      "duration" : 7697
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1544279967648,
+      "stop" : 1544279968413,
+      "duration" : 765
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1544279969264,
+      "stop" : 1544279969280,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "testClass",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "testMethod",
+    "value" : "testForAddToSpamAllMessages"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "host",
+    "value" : "Olga"
+  }, {
+    "name" : "thread",
+    "value" : "4428@Olga.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}

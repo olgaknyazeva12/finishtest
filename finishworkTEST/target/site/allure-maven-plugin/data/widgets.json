@@ -1,0 +1,40 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 5,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 9
+    },
+    "time" : {
+      "minDuration" : 0,
+      "maxDuration" : 1602,
+      "sumDuration" : 5818,
+      "start" : 1544278202404,
+      "stop" : 1544286831765,
+      "duration" : 8629361
+    }
+  },
+  "environment" : [ ],
+  "history-trend" : [ {
+    "failed" : 0,
+    "broken" : 5,
+    "skipped" : 0,
+    "passed" : 4,
+    "unknown" : 0,
+    "total" : 9
+  } ],
+  "behaviors" : {
+    "total" : 0,
+    "items" : [ ]
+  },
+  "executors" : [ {
+    "name" : "Maven",
+    "type" : "maven",
+    "buildName" : "finishwork"
+  } ],
+  "launches" : [ ]
+}

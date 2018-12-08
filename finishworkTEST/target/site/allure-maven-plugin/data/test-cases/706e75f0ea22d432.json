@@ -1,0 +1,77 @@
+{
+  "uid" : "706e75f0ea22d432",
+  "name" : "Runs Cucumber Feature",
+  "fullName" : "cucumber.api.testng.AbstractTestNGCucumberTests.feature",
+  "historyId" : "3e026cd1c72789dff77692e6d4d4efb5",
+  "time" : {
+    "start" : 1544271911222,
+    "stop" : 1544271914807,
+    "duration" : 3585
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1544271876474,
+      "stop" : 1544271877311,
+      "duration" : 837
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1544271918394,
+      "stop" : 1544271918412,
+      "duration" : 18
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "page.CucumberJvmTest"
+  }, {
+    "name" : "testClass",
+    "value" : "page.CucumberJvmTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "feature"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "page.CucumberJvmTest"
+  }, {
+    "name" : "host",
+    "value" : "Olga"
+  }, {
+    "name" : "thread",
+    "value" : "13956@Olga.main(1)"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Searching on Mail site (verification 1)"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}

@@ -1,0 +1,88 @@
+{
+  "uid" : "b6fc4eea6a99b082",
+  "name" : "testForRemoveFromFlag",
+  "fullName" : "pack.TestNGForMailBoxMessages.testForRemoveFromFlag",
+  "historyId" : "272e7384269103bb196c93e803383d66",
+  "time" : {
+    "start" : 1544280033861,
+    "stop" : 1544280043372,
+    "duration" : 9511
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1544279967648,
+      "stop" : 1544279968413,
+      "duration" : 765
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1544280027360,
+      "stop" : 1544280033844,
+      "duration" : 6484
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1544279969264,
+      "stop" : 1544279969280,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "testClass",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "testMethod",
+    "value" : "testForRemoveFromFlag"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "host",
+    "value" : "Olga"
+  }, {
+    "name" : "thread",
+    "value" : "4428@Olga.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}

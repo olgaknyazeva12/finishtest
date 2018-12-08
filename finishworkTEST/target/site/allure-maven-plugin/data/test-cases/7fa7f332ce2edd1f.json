@@ -1,0 +1,60 @@
+{
+  "uid" : "7fa7f332ce2edd1f",
+  "name" : "testForAddToTrashMessages",
+  "fullName" : "pack.TestNGForMailBoxMessages.testForAddToTrashMessages",
+  "historyId" : "8d42ddebab5376f616c37d493a3d1e15",
+  "time" : {
+    "start" : 1544279805869,
+    "stop" : 1544279823377,
+    "duration" : 17508
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1544279800646,
+      "stop" : 1544279805851,
+      "duration" : 5205
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "testClass",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "testMethod",
+    "value" : "testForAddToTrashMessages"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "host",
+    "value" : "Olga"
+  }, {
+    "name" : "thread",
+    "value" : "16656@Olga.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}

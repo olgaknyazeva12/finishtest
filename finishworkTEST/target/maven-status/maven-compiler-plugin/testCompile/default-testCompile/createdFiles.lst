@@ -1,0 +1,11 @@
+scenarioCinemaPack\ScenarioForSearchingMovieSiteWithMail.class
+scenarioTheaterPack\CucumberTest.class
+pack\CucumberTest.class
+scenarioCinemaPack\CucumberTest.class
+pack\UnitTestsForMail.class
+pack\TestNGForMailBoxMessages.class
+adapter\AppTest.class
+parserpack\parserSearchTests.class
+api\AppTest.class
+patternpack\AppTest.class
+scenarioTheaterPack\ScenarioForSearchingTheaterSiteWithMail.class

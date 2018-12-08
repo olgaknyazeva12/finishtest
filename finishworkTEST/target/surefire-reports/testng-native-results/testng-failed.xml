@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="pack.TestNGForMailBoxMessages">
+        <methods>
+          <include name="testForRemoveFromSpamAllMessages"/>
+          <include name="testForAddToFlag"/>
+          <include name="testForRemoveFromFlag"/>
+          <include name="testForAddToTrashMessages"/>
+          <include name="testForAddToSpamAllMessages"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- pack.TestNGForMailBoxMessages -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

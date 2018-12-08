@@ -1,0 +1,105 @@
+{
+  "uid" : "f6940f1fb7bf0df0",
+  "name" : "Runs Cucumber Feature",
+  "fullName" : "cucumber.api.testng.AbstractTestNGCucumberTests.feature",
+  "historyId" : "de37c850c85b5be4f466fcbd33c60b50",
+  "time" : {
+    "start" : 1544278202404,
+    "stop" : 1544278202422,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1544278200847,
+      "stop" : 1544278201799,
+      "duration" : 952
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1544278202742,
+      "stop" : 1544278202765,
+      "duration" : 23
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "page.CucumberJvmTest"
+  }, {
+    "name" : "testClass",
+    "value" : "page.CucumberJvmTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "feature"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "page.CucumberJvmTest"
+  }, {
+    "name" : "host",
+    "value" : "Olga"
+  }, {
+    "name" : "thread",
+    "value" : "14548@Olga.main(1)"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Test login page"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "93d8b6d1841fa4fc",
+      "status" : "broken",
+      "time" : {
+        "start" : 1544275137564,
+        "stop" : 1544275171593,
+        "duration" : 34029
+      }
+    }, {
+      "uid" : "9708fc2d96fae6c5",
+      "status" : "broken",
+      "time" : {
+        "start" : 1544271877796,
+        "stop" : 1544271910940,
+        "duration" : 33144
+      }
+    }, {
+      "uid" : "5f2b1b7776181ec2",
+      "status" : "broken",
+      "time" : {
+        "start" : 1544271794169,
+        "stop" : 1544271837250,
+        "duration" : 43081
+      }
+    } ],
+    "categories" : [ ]
+  }
+}

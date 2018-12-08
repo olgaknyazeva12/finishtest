@@ -1,0 +1,181 @@
+{
+  "uid" : "149ef486e592f179",
+  "name" : "Runs Cucumber Feature",
+  "fullName" : "cucumber.api.testng.AbstractTestNGCucumberTests.feature",
+  "historyId" : "233915139dbb1529e84e2ec6de1677ae",
+  "time" : {
+    "start" : 1544286781745,
+    "stop" : 1544286781745,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1544286771236,
+      "stop" : 1544286771993,
+      "duration" : 757
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1544286781543,
+      "stop" : 1544286781662,
+      "duration" : 119
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1544286781523,
+      "stop" : 1544286781541,
+      "duration" : 18
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1544286781758,
+      "stop" : 1544286781764,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pack.CucumberJvmTest"
+  }, {
+    "name" : "testClass",
+    "value" : "pack.CucumberJvmTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "feature"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "pack.CucumberJvmTest"
+  }, {
+    "name" : "host",
+    "value" : "Olga"
+  }, {
+    "name" : "thread",
+    "value" : "16816@Olga.main(1)"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Searching on Mail site (verification 2)"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "86ac6ab4857c9c82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544286781511,
+        "stop" : 1544286781512,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "93448fa9c91dec60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544286396046,
+        "stop" : 1544286396047,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "970c3ee8ddeb9248",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544280549889,
+        "stop" : 1544280549890,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e5eb6130d3aa5656",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544279969252,
+        "stop" : 1544279969252,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bfeb0318c850c341",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544278549953,
+        "stop" : 1544278549954,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6f4d20a505153e2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544278202725,
+        "stop" : 1544278202727,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "e67ccf4827ea6c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544275175312,
+        "stop" : 1544275178637,
+        "duration" : 3325
+      }
+    }, {
+      "uid" : "a717883369dc8a5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544271914945,
+        "stop" : 1544271918372,
+        "duration" : 3427
+      }
+    }, {
+      "uid" : "67c3748901105efb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544271841105,
+        "stop" : 1544271844536,
+        "duration" : 3431
+      }
+    } ],
+    "categories" : [ ]
+  }
+}

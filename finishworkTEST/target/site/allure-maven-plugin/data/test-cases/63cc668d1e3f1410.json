@@ -1,0 +1,171 @@
+{
+  "uid" : "63cc668d1e3f1410",
+  "name" : "testForAddToTrashMessages",
+  "fullName" : "pack.TestNGForMailBoxMessages.testForAddToTrashMessages",
+  "historyId" : "8d42ddebab5376f616c37d493a3d1e15",
+  "time" : {
+    "start" : 1544286830163,
+    "stop" : 1544286831765,
+    "duration" : 1602
+  },
+  "status" : "broken",
+  "statusDetails" : {
+    "trace" : "java.lang.NullPointerException\r\n\tat pack.TestNGForMailBoxMessages.makeScreenshot(TestNGForMailBoxMessages.java:104)\r\n\tat pack.TestNGForMailBoxMessages.testForAddToTrashMessages(TestNGForMailBoxMessages.java:95)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\r\n\tat org.testng.TestRunner.run(TestRunner.java:505)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\r\n\tat org.testng.TestNG.run(TestNG.java:1017)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:205)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:108)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)\r\n",
+    "flaky" : true
+  },
+  "beforeStages" : [ {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1544286820394,
+      "stop" : 1544286830150,
+      "duration" : 9756
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1544286771236,
+      "stop" : 1544286771993,
+      "duration" : 757
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1544286781543,
+      "stop" : 1544286781662,
+      "duration" : 119
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1544286781523,
+      "stop" : 1544286781541,
+      "duration" : 18
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1544286781758,
+      "stop" : 1544286781764,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "testClass",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "testMethod",
+    "value" : "testForAddToTrashMessages"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "host",
+    "value" : "Olga"
+  }, {
+    "name" : "thread",
+    "value" : "16816@Olga.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "76649f2e1c770fa5",
+      "status" : "broken",
+      "time" : {
+        "start" : 1544286449179,
+        "stop" : 1544286450118,
+        "duration" : 939
+      }
+    }, {
+      "uid" : "c4d080dee4454f02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544280679113,
+        "stop" : 1544280696936,
+        "duration" : 17823
+      }
+    }, {
+      "uid" : "9ac04a4cd4117173",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544280050175,
+        "stop" : 1544280058779,
+        "duration" : 8604
+      }
+    }, {
+      "uid" : "7fa7f332ce2edd1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544279805869,
+        "stop" : 1544279823377,
+        "duration" : 17508
+      }
+    }, {
+      "uid" : "6ee8f55ce1275c9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544278692027,
+        "stop" : 1544278712472,
+        "duration" : 20445
+      }
+    }, {
+      "uid" : "cfec75904cde1ec3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544276465136,
+        "stop" : 1544276472875,
+        "duration" : 7739
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects"
+    } ]
+  }
+}

@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 104.646 sec <<< FAILURE! - in TestSuite
+testForAddToSpamAllMessages(pack.TestNGForMailBoxMessages)  Time elapsed: 0.863 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at pack.TestNGForMailBoxMessages.makeScreenshot(TestNGForMailBoxMessages.java:104)
+	at pack.TestNGForMailBoxMessages.testForAddToSpamAllMessages(TestNGForMailBoxMessages.java:43)
+
+testForRemoveFromSpamAllMessages(pack.TestNGForMailBoxMessages)  Time elapsed: 1.289 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at pack.TestNGForMailBoxMessages.makeScreenshot(TestNGForMailBoxMessages.java:104)
+	at pack.TestNGForMailBoxMessages.testForRemoveFromSpamAllMessages(TestNGForMailBoxMessages.java:57)
+
+testForAddToFlag(pack.TestNGForMailBoxMessages)  Time elapsed: 1.292 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at pack.TestNGForMailBoxMessages.makeScreenshot(TestNGForMailBoxMessages.java:104)
+	at pack.TestNGForMailBoxMessages.testForAddToFlag(TestNGForMailBoxMessages.java:70)
+
+testForRemoveFromFlag(pack.TestNGForMailBoxMessages)  Time elapsed: 1.084 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at pack.TestNGForMailBoxMessages.makeScreenshot(TestNGForMailBoxMessages.java:104)
+	at pack.TestNGForMailBoxMessages.testForRemoveFromFlag(TestNGForMailBoxMessages.java:84)
+
+testForAddToTrashMessages(pack.TestNGForMailBoxMessages)  Time elapsed: 1.693 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at pack.TestNGForMailBoxMessages.makeScreenshot(TestNGForMailBoxMessages.java:104)
+	at pack.TestNGForMailBoxMessages.testForAddToTrashMessages(TestNGForMailBoxMessages.java:95)
+
+testForSendedMessage on testForSendedMessage(api.AppTest)(api.AppTest)  Time elapsed: 6.477 sec  <<< FAILURE!
+java.lang.NumberFormatException: For input string: "10113576656545766592"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:583)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at api.App.transformFromStringToInteger(App.java:109)
+	at api.AppTest.testForSendedMessage(AppTest.java:17)
+
+answerIsShown on answerIsShown(patternpack.AppTest)(patternpack.AppTest)  Time elapsed: 23.307 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at patternpack.FindAnswersPage.clickAnswerSearch(FindAnswersPage.java:41)
+	at patternpack.FactoryAnswer.factoryAnswerAll(FactoryAnswer.java:39)
+	at patternpack.AppTest.answerIsShown(AppTest.java:29)
+

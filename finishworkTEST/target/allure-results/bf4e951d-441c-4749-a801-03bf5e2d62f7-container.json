@@ -1,0 +1,1 @@
+{"uuid":"bf4e951d-441c-4749-a801-03bf5e2d62f7","name":"pack.TestNGForMailBoxMessages.afterTest","description":"","start":1544276457625,"stop":1544276459719,"children":["d275896f-125f-4d82-90a8-725c58c59764"],"afters":[{"name":"afterTest","status":"passed","stage":"finished","description":"","start":1544276457625,"stop":1544276459719}]}
